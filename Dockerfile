@@ -2,7 +2,7 @@ FROM ttbb/base:jdk11
 
 LABEL maintainer="shoothzj@gmail.com"
 
-ARG version=4.0.0
+ARG version=4.0.1
 
 RUN wget -O cassandra.tar.gz https://downloads.apache.org/cassandra/$version/apache-cassandra-$version-bin.tar.gz && \
 mkdir -p /opt/sh/cassandra && \
